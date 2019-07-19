@@ -6,3 +6,8 @@
   # this is necessary because of an npm bug with local dependencies
   # https://npm.community/t/npm-install-does-not-install-transitive-dependencies-of-local-dependency/2264
   NPM_FLAGS = "--no-package-lock --no-audit"
+
+[[redirects]]
+  from = "/*"
+  to = "https://docs.openzeppelin.com/contracts"
+  status = 301
